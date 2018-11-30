@@ -1,0 +1,339 @@
+/*顶部通栏开始*/
+
+.wide-user-tool-bar{
+    width: 100%;
+    height: 26px;
+    color: #999999;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+    z-index: 30001;
+    font-size: 12px;
+    /*margin-left:200px;*/
+    line-height: 26px;
+}
+.tool-bar-content{
+    height: 26px;
+    line-height: 26px;
+}
+.content{
+    width: 1190px;
+    margin: 0 auto;
+}
+.tool-bar-content-left,
+.tool-bar-content-mid,
+.tool-bar-content-right{
+    position: relative;
+    float: left;
+}
+.tool-bar-content-left svg{
+    font-size: 13.2px;
+}
+.tool-bar-content a{
+    color: rgb(102, 102, 102);
+}
+.wide-user-tool-bar a:hover{
+    color: #ff6600;
+}
+.tool-bar-content-mid{
+    margin: 0 15px;
+    margin-left:200px;
+}
+.tool-bar-content-mid>a{
+    color:#000;
+}
+.tool-bar-content-right{
+    margin-left: 160px;
+}
+.tool-bar-content-right>a{
+    padding: 0 10px;
+    color:#000;
+}
+.tool-bar-content-right>a>span{
+    color:#F17600;
+}
+.tool-bar-content-right>a:nth-of-type(4)>i,
+.tool-bar-content-right>a:nth-of-type(5)>i,
+.tool-bar-content-right>a:nth-of-type(6){
+    color: #ff6600;
+}
+.tool-bar-content-right>a:nth-child(5)>i,
+.tool-bar-content-right>a:nth-child(6)>i{
+    font-size: 14px;
+}
+.myself{
+    position: relative;
+    display: inline-block;
+    width: 63.625px;
+    height: 26px;
+}
+
+.tool-bar-list{
+    position: absolute;
+    left: 0;
+    top: 26px;
+    display: none;
+    z-index: 4;
+}
+.tool-bar-list li{
+    text-indent: 10px;
+    cursor: pointer;
+    width: 83px;
+    background: #fff;
+}
+.tool-bar-list2{
+    position: absolute;
+    top: 26px;
+    left: 159px;
+    background: #fff;
+    display: none;
+    z-index: 4;
+}
+.tool-bar-list2 li{
+    text-indent: 10px;
+    cursor: pointer;
+    width: 83px;
+    background: #fff;
+}
+.tool-bar-mobile{
+    position: relative;
+}
+
+.tool-bar-phoneimg{
+    position: absolute;
+    left: -43px;
+    top: 17px;
+    width: 168px;
+    height: 203px;
+    background: url("../images/tubiao.png") 0 -146px;
+    display: none;
+    z-index: 4;
+}
+.tool-bar-mobile:hover .tool-bar-phoneimg{
+    display: block;
+    animation: show 200ms linear;
+}
+/*顶部通栏结束*/
+/*内容部份开始*/
+
+
+
+
+#man{
+    width: 100%;
+}
+#man-top{
+    background:#F0F0F0;
+}
+#man-top img{
+    margin-left:246px;
+    width: 1000px;
+}
+
+
+.ban_wrap{
+    width:100%;
+    background:#F9EAEF;
+}
+#banner{
+    width:1000px;
+    height:480px;
+    background:url(../images/lodin_bottom.jpg) no-repeat center center; 
+     margin-left:246px;
+     position:relative;   
+}
+.login{
+    width:340px;
+    height:360px;
+    border-radius: 1px;
+    background: rgba(255,255,255,0.9) !important;
+    float:right;
+    position:absolute;
+    top:60px;
+    right:0;
+}
+.nav{
+    width:100%;
+    height:60px;
+    box-sizing: border-box;
+    padding:22px 0 16px 0;
+    border-bottom:1px solid #e6e6e6 ;   
+    
+}
+.nav p{
+    float:left;
+    line-height:22px;
+    width:168px;
+    text-align: center;
+    font-size: 18px;
+    color:#666; 
+}
+.nav p:first-child{
+    border-right:3px solid #e6e6e6;
+}
+form{
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+    padding: 34px 0 0 30px ;
+    height:240px;
+}
+
+#box2{
+position:relative;
+display:none;
+
+}
+#box2 img{
+    width: 340px;
+    height: 240px;
+    position:absolute;
+    top:0;
+    left:0;
+
+}
+form p{
+    float:left;
+    box-sizing: border-box;
+    padding-top:10px;
+    margin-bottom: 10px;
+    width:278px;
+    height:36px;
+    border:1px solid #bdbdbd;
+    background:#ffffff url(../images/login_tet.jpg) no-repeat  8px center;
+}
+form p:nth-of-type(3){
+    border:0;
+    margin:0;
+    padding:0;
+    background: none;
+}
+span{
+    font-size: 12px;
+    color:#ff6600;
+    float:right;
+}
+.wu1,.wu2,.wu3,.wu4{
+    display: none;
+}
+#tet,#pwd{
+    outline: 0;
+    float:right;
+    border:0;
+    width:240px;
+    height:16px;
+    border-left:2px solid #b7b5b5;
+    background:#ffffff;
+    font-size:12px;
+    color:#a9a9a9;
+    text-indent: 10px;
+}
+#btn{
+    border:0;
+    margin-top:17px ;
+    background:#ff6600;
+    outline: none;
+    display: block;
+    width:278px;
+    height:36px;
+    color:#fff;
+    font-size:20px;
+}
+.bottom{
+    width:100%;
+    height:60px;
+    line-height: 60px;
+    background:#ebebf1  url(../images/login_bottm.jpg) no-repeat; 
+    opacity:0.9;    
+}
+.bottom a{
+    float:right;
+    font-size: 12px;
+    color:#ff6600;
+    margin-right:20px;
+}
+.bottom a span{
+    margin-top:22px;
+    float:right;
+    width:16px;
+    height: 16px;
+    border-radius: 50%;
+    line-height: 16px;
+    text-align: center;
+    background:#ff6600;
+    color:#fff;
+    margin-left:5px;
+    font-size: 16px;
+}
+
+
+
+
+/*底部链接*/
+.wide-footer{
+    width: 100%;
+    height: 400px;
+    color: #999;
+    background: #F0F0F0;
+   
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35) inset;
+    padding-top: 10px;
+}
+.wide-footer a{
+    color:#000;
+}
+.footer-img{
+    margin: 0 auto;
+    width: 980px;
+    height: 100px;
+    background: url("../images/nfot-bg-03.gif") no-repeat;
+}
+.footer-list{
+    padding: 20px 20px 20px 70px;
+    border-top: 1px #fff solid;
+    border-bottom: 1px solid #E0E0E0;
+    width: 900px;
+    height: 86px;
+    margin: 0 auto;
+}
+.footer-list>ul{
+    float: left;
+    width: 150px;
+    color: #666;
+}
+.footer-list li{
+    color: #666;
+    font-size: 12px;
+    height: 19px;
+    line-height: 160%;
+    text-align: center;
+}
+.footer-list li:nth-child(1){
+    margin-bottom: 10px;
+}
+.footer-list h4{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-list2{
+    width: 1190px;
+    border-top: 1px #fff solid;
+    text-align: center;
+    padding: 14px 0;
+    margin: 0 auto;
+
+}
+.footer-list2 a{
+    margin-right: 5px;
+}
+.footer-list2 p{
+    padding-top: 5px;
+    color: #999;
+    font-size: 12px;
+}
+.last-img{
+    width: 698px;
+    height: 40px;
+    margin: 0 auto;
+    background: url("../images/FTC-01-bg3gg.jpg");
+}

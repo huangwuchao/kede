@@ -1,0 +1,577 @@
+@charset "UTF-8";
+.wide-user-tool-bar {
+  width: 100%;
+  height: 26px;
+  color: #999999;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 30001;
+  font-size: 12px;
+  line-height: 26px;
+}
+
+.tool-bar-content {
+  height: 26px;
+  line-height: 26px;
+}
+
+.content {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.tool-bar-content-left,
+.tool-bar-content-mid,
+.tool-bar-content-right {
+  position: relative;
+  float: left;
+}
+
+.tool-bar-content-left svg {
+  font-size: 13.2px;
+}
+
+.tool-bar-content a {
+  color: #666666;
+}
+
+.wide-user-tool-bar a:hover {
+  color: #ff6600;
+}
+
+.tool-bar-content-mid {
+  margin: 0 15px;
+  margin-left: 200px;
+}
+
+.tool-bar-content-mid > a {
+  color: #000;
+}
+
+.tool-bar-content-right {
+  margin-left: 160px;
+}
+
+.tool-bar-content-right > a {
+  padding: 0 10px;
+  color: #000;
+}
+
+.tool-bar-content-right > a > span {
+  color: #F17600;
+}
+
+.tool-bar-content-right > a:nth-of-type(4) > i,
+.tool-bar-content-right > a:nth-of-type(5) > i,
+.tool-bar-content-right > a:nth-of-type(6) {
+  color: #ff6600;
+}
+
+.tool-bar-content-right > a:nth-child(5) > i,
+.tool-bar-content-right > a:nth-child(6) > i {
+  font-size: 14px;
+}
+
+.myself {
+  position: relative;
+  display: inline-block;
+  width: 63.625px;
+  height: 26px;
+}
+
+.tool-bar-list {
+  position: absolute;
+  left: 0;
+  top: 26px;
+  display: none;
+  z-index: 4;
+}
+
+.tool-bar-list li {
+  text-indent: 10px;
+  cursor: pointer;
+  width: 83px;
+  background: #fff;
+}
+
+.tool-bar-list2 {
+  position: absolute;
+  top: 26px;
+  left: 159px;
+  background: #fff;
+  display: none;
+  z-index: 4;
+}
+
+.tool-bar-list2 li {
+  text-indent: 10px;
+  cursor: pointer;
+  width: 83px;
+  background: #fff;
+}
+
+.tool-bar-mobile {
+  position: relative;
+}
+
+.tool-bar-phoneimg {
+  position: absolute;
+  left: -43px;
+  top: 17px;
+  width: 168px;
+  height: 203px;
+  background: url("../images/tubiao.png") 0 -146px;
+  display: none;
+  z-index: 4;
+}
+
+.tool-bar-mobile:hover .tool-bar-phoneimg {
+  display: block;
+  animation: show 200ms linear;
+}
+
+/*导航结束*/
+/*内容部分开始*/
+#logo {
+  hidden: 135px;
+}
+#logo #logo_top {
+  width: 998px;
+  margin: 0 auto;
+  height: 130px;
+  padding-top: 20px;
+  position: relative;
+}
+#logo #logo_top img {
+  width: 100%;
+  height: 100%;
+}
+
+#man {
+  width: 998px;
+  margin: 0 auto;
+}
+#man .cart_explain {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  height: 30px;
+}
+#man .cart_explain li {
+  float: left;
+}
+#man .cart_explain li div {
+  font-family: 微软雅黑;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  float: left;
+  font-size: 14px;
+}
+#man .cart_explain li .e_product {
+  width: 420px;
+  margin-left: 20px;
+}
+#man .cart_explain li .e_luminosity {
+  width: 120px;
+}
+#man .cart_explain li .e_quantity {
+  width: 100px;
+}
+#man .cart_explain li .e_price {
+  width: 110px;
+}
+#man .cart_explain li .e_subtotal {
+  width: 110px;
+}
+#man .cart_explain li .e_operation {
+  width: 88px;
+}
+#man .ShopTitle {
+  font-size: 15px;
+  font-family: 微软雅黑;
+  color: #333333;
+  padding: 30px 0px 12px 18px;
+}
+
+.cart_product {
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.cart_product .cart_meet_more {
+  background-color: #fff6ee;
+  border-top: 1px solid #ccc;
+  padding: 0 20px 10px 20px;
+  margin-top: -1px;
+}
+.cart_product .cart_meet_more p {
+  padding: 10px 0 0 0;
+  color: #666;
+}
+.cart_product .cart_meet_more p b {
+  padding: 0 5px;
+  color: #fff;
+  background-color: #f60;
+  margin-right: 10px;
+}
+
+#shopping {
+  width: 997px;
+  height: 400px;
+  border: 1px solid #ccc;
+  color: #666;
+  overflow: hidden;
+}
+#shopping #dalao {
+  width: 997px;
+  color: #666;
+}
+#shopping #dalao li {
+  float: left;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  width: 997px;
+}
+#shopping #dalao li .sop1 {
+  width: 420px;
+  margin-left: 20px;
+  display: inline-block;
+}
+#shopping #dalao li .sop1 img {
+  width: 58px;
+  height: 58px;
+  overflow: hidden;
+  border: 1px solid #f5f5f5;
+  float: left;
+}
+#shopping #dalao li .sop1 a {
+  display: block;
+  width: 340px;
+  height: 58px;
+  line-height: 58px;
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+#shopping #dalao li .sop2 {
+  width: 120px;
+  display: inline-block;
+  line-height: 38px;
+  position: absolute;
+  left: 440px;
+  top: 20px;
+}
+#shopping #dalao li .sop3 {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  float: left;
+  padding: 10px 0;
+  position: absolute;
+  left: 560px;
+  top: 20;
+}
+#shopping #dalao li .sop3 div {
+  float: left;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #CCC;
+  cursor: pointer;
+  margin: 12px 0 0 6px;
+  background-color: #EEE;
+}
+#shopping #dalao li .sop3 .shuliang {
+  width: 30px;
+  background-color: #FFF;
+  font-size: 12px;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #CCC;
+  cursor: pointer;
+  margin: 12px 0 0 6px;
+}
+#shopping #dalao li .sop4 {
+  display: inline-block;
+  width: 110px;
+  line-height: 60px;
+  text-align: center;
+  position: absolute;
+  left: 655px;
+  top: 12px;
+}
+#shopping #dalao li .sop5 {
+  display: inline-block;
+  width: 110px;
+  line-height: 60px;
+  text-align: center;
+  color: #f60;
+  position: absolute;
+  left: 765px;
+  top: 12px;
+}
+#shopping #dalao li .sop6 {
+  display: inline-block;
+  width: 68px;
+  padding: 20px 0 0 20px;
+  position: absolute;
+  right: 22px;
+  top: 5px;
+}
+#shopping #dalao li .sop6 p {
+  line-height: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.cart_continue {
+  width: 90px;
+  height: 40px;
+  color: #333;
+  font-size: 14px;
+  line-height: 40px;
+  padding: 0 21px;
+  cursor: pointer;
+}
+.cart_continue i {
+  width: 10px;
+  height: 10px;
+  background: url("../images/tubiao.png");
+  background-position: -15px -729px;
+  float: left;
+  margin: 16px 10px 0 0;
+  display: block;
+  overflow: hidden;
+}
+.cart_continue a {
+  color: #333;
+  font-size: 14px;
+}
+
+.centre_img {
+  width: 998px;
+  height: 753px;
+}
+.centre_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.cart_aggregate {
+  width: 990px;
+  color: #666;
+  margin-top: 40px;
+  text-align: right;
+  font-size: 14px;
+  line-height: 24px;
+  height: 152px;
+  position: relative;
+}
+.cart_aggregate div {
+  float: right;
+}
+.cart_aggregate div p {
+  float: right;
+}
+.cart_aggregate div .hj_jg {
+  width: 120px;
+}
+.cart_aggregate div .hj_name {
+  width: 90px;
+}
+.cart_aggregate div .hj_quantity span {
+  color: #f60;
+}
+.cart_aggregate div .yh_je {
+  width: 128px;
+  float: right;
+  color: #f60;
+}
+.cart_aggregate div .yh_name {
+  width: 90px;
+  float: right;
+}
+.cart_aggregate div .lq_name {
+  width: 90px;
+  float: right;
+}
+.cart_aggregate div .lq_jg {
+  width: 128px;
+  color: #f60;
+  float: right;
+}
+.cart_aggregate .dinwei {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.cart_aggregate .dinwei1 {
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+.cart_aggregate .aggregate {
+  width: 990px;
+  height: 65px;
+  border-top: 1px solid #ccc;
+  padding: 15px 0 8px 0;
+  margin-top: 15px;
+  line-height: 40px;
+  position: absolute;
+  right: 0;
+  top: 80px;
+}
+.cart_aggregate .aggregate .aggregate_btn {
+  width: 190px;
+  height: 34px;
+  line-height: 34px;
+  background-color: #f60;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.cart_aggregate .aggregate .aggregate_zj {
+  font-weight: bold;
+  line-height: 34px;
+  margin-right: 20px;
+}
+.cart_aggregate .aggregate .aggregate_zj span {
+  font-size: 24px;
+  color: #f60;
+}
+
+.recommend {
+  width: 990px;
+  height: 290px;
+  margin: 30px 0 50px 0;
+  position: relative;
+}
+.recommend .recommend_title {
+  border-left: 1px solid #ccc;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.recommend .recommend_title .no {
+  border-bottom-color: #fff;
+  color: #f60;
+  font-weight: bold;
+  z-index: 3;
+}
+.recommend .recommend_title li {
+  width: 98px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-left-width: 0px;
+  float: left;
+  cursor: pointer;
+}
+
+.recommend_title1 {
+  position: absolute;
+  top: 29px;
+  left: 0px;
+  width: 988px;
+  height: 290px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  line-height: 20px;
+  text-align: center;
+}
+.recommend_title1 li {
+  display: none;
+  width: 988px;
+  height: 290px;
+}
+.recommend_title1 li img {
+  width: 986px;
+  height: 288px;
+}
+
+/*底部链接*/
+.wide-footer {
+  width: 100%;
+  height: 400px;
+  color: #999;
+  background: #F0F0F0;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35) inset;
+  padding-top: 10px;
+}
+
+.wide-footer a {
+  color: #000;
+}
+
+.footer-img {
+  margin: 0 auto;
+  width: 980px;
+  height: 100px;
+  background: url("../images/nfot-bg-03.gif") no-repeat;
+}
+
+.footer-list {
+  padding: 20px 20px 20px 70px;
+  border-top: 1px #fff solid;
+  border-bottom: 1px solid #E0E0E0;
+  width: 900px;
+  height: 86px;
+  margin: 0 auto;
+}
+
+.footer-list > ul {
+  float: left;
+  width: 150px;
+  color: #666;
+}
+
+.footer-list li {
+  color: #666;
+  font-size: 12px;
+  height: 19px;
+  line-height: 160%;
+  text-align: center;
+}
+
+.footer-list li:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.footer-list h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer-list2 {
+  width: 1190px;
+  border-top: 1px #fff solid;
+  text-align: center;
+  padding: 14px 0;
+  margin: 0 auto;
+}
+
+.footer-list2 a {
+  margin-right: 5px;
+}
+
+.footer-list2 p {
+  padding-top: 5px;
+  color: #999;
+  font-size: 12px;
+}
+
+.last-img {
+  width: 698px;
+  height: 40px;
+  margin: 0 auto;
+  background: url("../images/FTC-01-bg3gg.jpg");
+}
+
+/*# sourceMappingURL=shopping.css.map */

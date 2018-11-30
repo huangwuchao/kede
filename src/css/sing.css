@@ -1,0 +1,340 @@
+@charset "UTF-8";
+.wide-user-tool-bar {
+  width: 100%;
+  height: 26px;
+  color: #999999;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 30001;
+  font-size: 12px;
+  line-height: 26px;
+}
+
+.tool-bar-content {
+  height: 26px;
+  line-height: 26px;
+}
+
+.content {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.tool-bar-content-left,
+.tool-bar-content-mid,
+.tool-bar-content-right {
+  position: relative;
+  float: left;
+}
+
+.tool-bar-content-left svg {
+  font-size: 13.2px;
+}
+
+.tool-bar-content a {
+  color: #666666;
+}
+
+.wide-user-tool-bar a:hover {
+  color: #ff6600;
+}
+
+.tool-bar-content-mid {
+  margin: 0 15px;
+  margin-left: 200px;
+}
+
+.tool-bar-content-mid > a {
+  color: #000;
+}
+
+.tool-bar-content-right {
+  margin-left: 160px;
+}
+
+.tool-bar-content-right > a {
+  padding: 0 10px;
+  color: #000;
+}
+
+.tool-bar-content-right > a > span {
+  color: #F17600;
+}
+
+.tool-bar-content-right > a:nth-of-type(4) > i,
+.tool-bar-content-right > a:nth-of-type(5) > i,
+.tool-bar-content-right > a:nth-of-type(6) {
+  color: #ff6600;
+}
+
+.tool-bar-content-right > a:nth-child(5) > i,
+.tool-bar-content-right > a:nth-child(6) > i {
+  font-size: 14px;
+}
+
+.myself {
+  position: relative;
+  display: inline-block;
+  width: 63.625px;
+  height: 26px;
+}
+
+.tool-bar-list {
+  position: absolute;
+  left: 0;
+  top: 26px;
+  display: none;
+  z-index: 4;
+}
+
+.tool-bar-list li {
+  text-indent: 10px;
+  cursor: pointer;
+  width: 83px;
+  background: #fff;
+}
+
+.tool-bar-list2 {
+  position: absolute;
+  top: 26px;
+  left: 159px;
+  background: #fff;
+  display: none;
+  z-index: 4;
+}
+
+.tool-bar-list2 li {
+  text-indent: 10px;
+  cursor: pointer;
+  width: 83px;
+  background: #fff;
+}
+
+.tool-bar-mobile {
+  position: relative;
+}
+
+.tool-bar-phoneimg {
+  position: absolute;
+  left: -43px;
+  top: 17px;
+  width: 168px;
+  height: 203px;
+  background: url("../images/tubiao.png") 0 -146px;
+  display: none;
+  z-index: 4;
+}
+
+.tool-bar-mobile:hover .tool-bar-phoneimg {
+  display: block;
+  animation: show 200ms linear;
+}
+
+/*顶部通栏结束*/
+#man {
+  width: 100%;
+}
+#man #man-top {
+  background: #f0f0f0;
+}
+#man #man-top img {
+  margin-left: 246px;
+  width: 1000px;
+}
+
+.ban_wrap {
+  width: 100%;
+  background: #F9EAEF;
+}
+
+#banner {
+  width: 1000px;
+  height: 480px;
+  background: url(../images/lodin_bottom.jpg) no-repeat center center;
+  margin-left: 246px;
+  position: relative;
+}
+
+.login {
+  width: 340px;
+  height: 360px;
+  border-radius: 1px;
+  background: rgba(255, 255, 255, 0.9) !important;
+  float: right;
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+.login .nav {
+  height: 62px;
+}
+.login .nav p {
+  display: block;
+  font-size: 28px;
+  color: #FF6503;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.login .nav span {
+  display: block;
+  font-size: 14px;
+  margin-top: 33px;
+  float: left;
+  margin-left: 70px;
+}
+.login .nav span a {
+  color: #FF6503;
+}
+
+#box1 {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 0 0 30px;
+}
+#box1 p {
+  box-sizing: border-box;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  width: 278px;
+  height: 36px;
+  border: 1px solid #bdbdbd;
+  background: #ffffff url(../images/login_tet.jpg) no-repeat 8px center;
+}
+#box1 p input {
+  margin-left: 30px;
+  border: none 0;
+}
+
+#tet {
+  width: 240px;
+}
+
+#tet1 {
+  width: 240px;
+}
+
+#tet2 {
+  width: 240px;
+}
+
+#tet3 {
+  width: 140px;
+}
+
+#box1 #box2 {
+  width: 180px;
+}
+
+#yuanzheng {
+  width: 95px;
+  height: 36px;
+  border: 1px solid #ccc;
+  position: absolute;
+  right: 31px;
+  top: 204px;
+  background: #FF6600;
+  color: #fff;
+  font-size: 15px;
+  line-height: 36px;
+  text-align: center;
+}
+
+#zhuche {
+  height: 35px;
+  width: 278px;
+  background: #FF6600;
+  color: #fff;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+#span {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#span a {
+  color: #58bc58;
+}
+
+/*底部链接*/
+.wide-footer {
+  width: 100%;
+  height: 400px;
+  color: #999;
+  background: #F0F0F0;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35) inset;
+  padding-top: 10px;
+}
+
+.wide-footer a {
+  color: #000;
+}
+
+.footer-img {
+  margin: 0 auto;
+  width: 980px;
+  height: 100px;
+  background: url("../images/nfot-bg-03.gif") no-repeat;
+}
+
+.footer-list {
+  padding: 20px 20px 20px 70px;
+  border-top: 1px #fff solid;
+  border-bottom: 1px solid #E0E0E0;
+  width: 900px;
+  height: 86px;
+  margin: 0 auto;
+}
+
+.footer-list > ul {
+  float: left;
+  width: 150px;
+  color: #666;
+}
+
+.footer-list li {
+  color: #666;
+  font-size: 12px;
+  height: 19px;
+  line-height: 160%;
+  text-align: center;
+}
+
+.footer-list li:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.footer-list h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer-list2 {
+  width: 1190px;
+  border-top: 1px #fff solid;
+  text-align: center;
+  padding: 14px 0;
+  margin: 0 auto;
+}
+
+.footer-list2 a {
+  margin-right: 5px;
+}
+
+.footer-list2 p {
+  padding-top: 5px;
+  color: #999;
+  font-size: 12px;
+}
+
+.last-img {
+  width: 698px;
+  height: 40px;
+  margin: 0 auto;
+  background: url("../images/FTC-01-bg3gg.jpg");
+}
+
+/*# sourceMappingURL=sing.css.map */
